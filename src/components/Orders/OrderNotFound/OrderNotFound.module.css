@@ -1,0 +1,8 @@
+.orderNotFound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 37px;
+  margin-top: 149px;
+}

@@ -1,0 +1,76 @@
+.orderContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  height: 70px;
+  border-radius: 4px;
+  padding-right: 12px;
+}
+
+.orderContainer:hover {
+  box-shadow: 0 0 5px 0;
+}
+
+.order {
+  display: flex;
+  align-items: center;
+}
+
+.orderNameContainer {
+  min-width: 398px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.orderName {
+  margin-left: 11px;
+  color: #474747;
+}
+
+.orderType {
+  min-width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: #5c5c5c;
+}
+
+.orderStatus {
+  min-width: 62px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-left: 25px;
+}
+
+.orderSite {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-left: 54px;
+}
+
+.orderSite > h5,
+.orderType > h5 {
+  color: #5c5c5c;
+}
+
+.btn,
+.draftBtn {
+  width: 95px;
+  height: 30px;
+  background-color: #2ee5ac;
+  border: none;
+  margin-left: 60px;
+  border-radius: 10px;
+}
+
+.draftBtn {
+  background-color: #7d7d7d;
+}

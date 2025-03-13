@@ -1,0 +1,10 @@
+.back {
+  width: 112px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-top: 520px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #222222;
+}
